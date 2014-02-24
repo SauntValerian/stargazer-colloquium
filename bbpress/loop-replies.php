@@ -18,7 +18,7 @@
     				<?php bbp_user_favorites_link(); ?>
 				</li>
 
-	<li class="bbp-header discussion-header font-headlines"><?php  _e( 'Discussion',  'bbpress' ); ?></li><!-- .bbp-header -->
+	<li class="bbp-header discussion-header font-headlines"><?php  _e( 'Discussion',  'stargazer-colloquium' ); ?></li><!-- .bbp-header -->
 
 	<li class="bbp-body">
 
