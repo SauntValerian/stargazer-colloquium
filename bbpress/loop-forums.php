@@ -16,8 +16,8 @@
 	<li class="bbp-header">
 
 		<ul class="forum-titles font-headlines">
-			<li class="bbp-forum-info"><?php _e( 'Forums', 'bbpress' ); ?></li>
-			<li class="bbp-forum-freshness"><?php _e( 'Freshness', 'bbpress' ); ?></li>
+			<li class="bbp-forum-info"><?php _e( 'Forums', 'stargazer-colloquium' ); ?></li>
+			<li class="bbp-forum-freshness"><?php _e( 'Freshness', 'stargazer-colloquium' ); ?></li>
 		</ul>
 
 	</li><!-- .bbp-header -->
