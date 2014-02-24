@@ -1,14 +1,5 @@
 <?php
 
-
-/* add_action( 'after_setup_theme', 'stargazer_bbpress_theme_setup', 11 );
-
-function stargazer_bbpress_theme_setup() {
-
-	add_filter( 'bbp_no_breadcrumb', '__return_true' );
-
-} */
-
 /* Uses the custom color set in Stargazer within BBPress */
 add_action( 'wp_head', 'bbpress_custom_color' ); 
 
