@@ -8,7 +8,7 @@ Stargazer Colloquium is a child theme for the Stargazer WordPress theme.
  
 This theme does not modify any element of Stargazer, it only adds BBPress support to it while taking advantage of some of Stargazer's color customization features (but only in a very small way.)
 
-There are two ways to use this theme: As a stand-alone child theme, or integrated into an existing child theme.
+**There are two ways to use this theme:** As a stand-alone child theme, or integrated into an existing child theme.
 
 ####How to use as a stand-alone child theme:
 First, install the Stargazer theme, this is a child theme and is useless with out its parent.
