@@ -15,11 +15,11 @@
 
 	<li class="bbp-header">
 
-		<div class="bbp-topic-author"><?php  _e( 'Creator',  'bbpress' ); ?></div><!-- .bbp-topic-author -->
+		<div class="bbp-topic-author"><?php  _e( 'Creator',  'stargazer-colloquium' ); ?></div><!-- .bbp-topic-author -->
 
 		<div class="bbp-topic-content">
 
-			<?php _e( 'Topic', 'bbpress' ); ?>
+			<?php _e( 'Topic', 'stargazer-colloquium' ); ?>
 
 			<?php bbp_topic_subscription_link(); ?>
 
@@ -87,11 +87,11 @@
 
 	<li class="bbp-footer">
 
-		<div class="bbp-topic-author"><?php  _e( 'Creator',  'bbpress' ); ?></div>
+		<div class="bbp-topic-author"><?php  _e( 'Creator',  'stargazer-colloquium' ); ?></div>
 
 		<div class="bbp-topic-content">
 
-			<?php _e( 'Topic', 'bbpress' ); ?>
+			<?php _e( 'Topic', 'stargazer-colloquium' ); ?>
 
 		</div><!-- .bbp-topic-content -->
 
