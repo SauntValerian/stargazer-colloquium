@@ -19,32 +19,32 @@
 
 				<fieldset class="bbp-form">
 
-					<legend><?php printf( __( 'Move reply "%s"', 'bbpress' ), bbp_get_reply_title() ); ?></legend>
+					<legend><?php printf( __( 'Move reply "%s"', 'stargazer-colloquium' ), bbp_get_reply_title() ); ?></legend>
 
 					<div>
 
 						<div class="bbp-template-notice info">
-							<p><?php _e( 'You can either make this reply a new topic with a new title, or merge it into an existing topic.', 'bbpress' ); ?></p>
+							<p><?php _e( 'You can either make this reply a new topic with a new title, or merge it into an existing topic.', 'stargazer-colloquium' ); ?></p>
 						</div>
 
 						<div class="bbp-template-notice">
-							<p><?php _e( 'If you choose an existing topic, replies will be ordered by the time and date they were created.', 'bbpress' ); ?></p>
+							<p><?php _e( 'If you choose an existing topic, replies will be ordered by the time and date they were created.', 'stargazer-colloquium' ); ?></p>
 						</div>
 
 						<fieldset class="bbp-form">
-							<legend><?php _e( 'Move Method', 'bbpress' ); ?></legend>
+							<legend><?php _e( 'Move Method', 'stargazer-colloquium' ); ?></legend>
 
 							<div>
 								<input name="bbp_reply_move_option" id="bbp_reply_move_option_reply" type="radio" checked="checked" value="topic" tabindex="<?php bbp_tab_index(); ?>" />
-								<label for="bbp_reply_move_option_reply"><?php printf( __( 'New topic in <strong>%s</strong> titled:', 'bbpress' ), bbp_get_forum_title( bbp_get_reply_forum_id( bbp_get_reply_id() ) ) ); ?></label>
-								<input type="text" id="bbp_reply_move_destination_title" value="<?php printf( __( 'Moved: %s', 'bbpress' ), bbp_get_reply_title() ); ?>" tabindex="<?php bbp_tab_index(); ?>" size="35" name="bbp_reply_move_destination_title" />
+								<label for="bbp_reply_move_option_reply"><?php printf( __( 'New topic in <strong>%s</strong> titled:', 'stargazer-colloquium' ), bbp_get_forum_title( bbp_get_reply_forum_id( bbp_get_reply_id() ) ) ); ?></label>
+								<input type="text" id="bbp_reply_move_destination_title" value="<?php printf( __( 'Moved: %s', 'stargazer-colloquium' ), bbp_get_reply_title() ); ?>" tabindex="<?php bbp_tab_index(); ?>" size="35" name="bbp_reply_move_destination_title" />
 							</div>
 
 							<?php if ( bbp_has_topics( array( 'show_stickies' => false, 'post_parent' => bbp_get_reply_forum_id( bbp_get_reply_id() ), 'post__not_in' => array( bbp_get_reply_topic_id( bbp_get_reply_id() ) ) ) ) ) : ?>
 
 								<div>
 									<input name="bbp_reply_move_option" id="bbp_reply_move_option_existing" type="radio" value="existing" tabindex="<?php bbp_tab_index(); ?>" />
-									<label for="bbp_reply_move_option_existing"><?php _e( 'Use an existing topic in this forum:', 'bbpress' ); ?></label>
+									<label for="bbp_reply_move_option_existing"><?php _e( 'Use an existing topic in this forum:', 'stargazer-colloquium' ); ?></label>
 
 									<?php
 										bbp_dropdown( array(
@@ -63,11 +63,11 @@
 						</fieldset>
 
 						<div class="bbp-template-notice error">
-							<p><?php _e( '<strong>WARNING:</strong> This process cannot be undone.', 'bbpress' ); ?></p>
+							<p><?php _e( '<strong>WARNING:</strong> This process cannot be undone.', 'stargazer-colloquium' ); ?></p>
 						</div>
 
 						<div class="bbp-submit-wrapper">
-							<button type="submit" tabindex="<?php bbp_tab_index(); ?>" id="bbp_move_reply_submit" name="bbp_move_reply_submit" class="button submit"><?php _e( 'Submit', 'bbpress' ); ?></button>
+							<button type="submit" tabindex="<?php bbp_tab_index(); ?>" id="bbp_move_reply_submit" name="bbp_move_reply_submit" class="button submit"><?php _e( 'Submit', 'stargazer-colloquium' ); ?></button>
 						</div>
 					</div>
 
@@ -80,7 +80,7 @@
 	<?php else : ?>
 
 		<div id="no-reply-<?php bbp_reply_id(); ?>" class="bbp-no-reply">
-			<div class="entry-content"><?php is_user_logged_in() ? _e( 'You do not have the permissions to edit this reply!', 'bbpress' ) : _e( 'You cannot edit this reply.', 'bbpress' ); ?></div>
+			<div class="entry-content"><?php is_user_logged_in() ? _e( 'You do not have the permissions to edit this reply!', 'stargazer-colloquium' ) : _e( 'You cannot edit this reply.', 'stargazer-colloquium' ); ?></div>
 		</div>
 
 	<?php endif; ?>
