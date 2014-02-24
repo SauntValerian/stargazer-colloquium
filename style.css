@@ -1,0 +1,10 @@
+/*
+Theme Name:     Stargazer Colloquium
+Description:    A child theme for Stargazer with support for BBPress
+Author:         Peter Davenport
+Template:       stargazer
+
+(optional values you can add: Theme URI, Author URI, Version)
+*/
+
+@import url("../stargazer/style.css");
