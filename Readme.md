@@ -13,7 +13,7 @@ There are two ways to use this theme: As a stand-alone child theme, or integrate
 ####How to use as a stand-alone child theme:
 First, install the Stargazer theme, this is a child theme and is useless with out its parent.
 
-Download the .zip file using the download button to the right. Rename the file to stargazer-colloquium.zip and upload it to your WordPress installation by going to Appearance -> Themes -> Add New. After installing the child theme activate it.
+Download the .zip file using the download button to the right. Rename the file to stargazer-colloquium.zip and upload it to your WordPress installation by going to *Appearance -> Themes -> Add New*. After installing the child theme activate it.
 
 ####How to integrate Colloquium into your existing Stargazer child theme
 If you have already deployed Stargazer on your site and are already using a child theme. To add BBPress support using you can download this theme and extract it on your computer.
