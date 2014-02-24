@@ -24,7 +24,7 @@
         <?php if ( bbp_has_forums() ) : ?>
         
             <div class="sub-forums-list">
-                <div class="sub-forum-header font-headlines"><?php _e( 'Sub Forums', 'bbpress' ); ?></div>        
+                <div class="sub-forum-header font-headlines"><?php _e( 'Sub Forums', 'stargazer-colloquium' ); ?></div>        
                 <?php bbp_get_template_part( 'loop', 'forums' ); ?>
             </div>
             
