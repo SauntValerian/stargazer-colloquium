@@ -22,7 +22,7 @@ First, remove the style.css that is included here (since you already have one of
 
 Upload all the other files into your child theme, again ignoring style.css and functions.php (unless you are not already using a functions.php, then the file here can be included, otherwise follow the direction above).
 
-The files you upload should include the following:
+The files you upload should at least include the following:
 * screenshot.png
 * bbpress.php
 * The bbpress folder with all template files included
