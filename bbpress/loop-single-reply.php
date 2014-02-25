@@ -24,10 +24,10 @@
     		<span class="author-name"><?php do_action( 'bbp_theme_before_reply_author_details' ); ?></span>
     		
     		 
-    		
+    			<?php bbp_reply_author_link( array( 'size' => '0', 'show_role' => false ) ); ?>
     		<span class="bb-reply-header-meta bbp-reply-post-date font-headlines"><?php bbp_reply_post_date(); ?></span>
     		<a href="<?php bbp_reply_url(); ?>" class="bbp-reply-header-meta bbp-reply-permalink font-headlines">#<?php bbp_reply_id(); ?></a>
-       		<?php bbp_reply_author_link( array( 'size' => '0', 'show_role' => false ) ); ?>
+       	
 
     
     		<?php if ( bbp_is_user_keymaster() ) : ?>
